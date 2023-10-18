@@ -10,7 +10,7 @@ function numberOneTriangle() {
 
   let triangle = ""
   for (let i = 1; i <= inputNumber; i++) {
-    triangle += "1".repeat(i) + "<br>"
+    triangle += "*".repeat(i) + "<br>"
   }
 
   triangleContainer.innerHTML = `<div class="triangle">${triangle}</div>`
